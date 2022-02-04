@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.myLogo{
+    margin-left: 20px !important;
+}
+
+.myNav{
+  background-color: rgb(233, 231, 232) !important;
+  box-shadow: 2px 2px 4px rgb(161, 161, 161);
+}
+
+.my-ul li a{
+    color: saddlebrown;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.my-ul li a:hover{
+    color: rgb(253, 197, 46) !important;
+}
+
+.bannerBox{
+    background-color: rgb(249, 249, 249) !important;
+}
+
+.bannerImg{
+    margin: auto;
+    display: block;
+}
+
+.contentBox{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 15px 10px;
+    background-color: rgb(233, 231, 232) !important;
+
+}
+
+.col-4, .col-5{
+    flex-basis: 50%;
+    min-width: 300px;    
+}
+
+.col-4 img{
+    max-width: 100%;
+    padding: 10px 0;
+    
+}
+
+.col-5 h1{
+    margin: 25px 0;
+    color: rgb(253, 197, 46);
+}
+
+.footerBox{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(195, 194, 26);
+    margin-bottom: 20px;
+}
+
+.f1, .f2, .f3, .f4 {
+    margin: 15px 0;
+}
+
+.f1, .f2, .f3, .f4, a {
+    text-decoration: none !important;
+}
+
+.myIcon{
+    display: block !important;
+    color: rgb(241, 241, 241);
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 13px;
+}
+
+.footerBox div a{
+    color: rgb(233, 231, 232);
+    font-weight: bold;
+    padding-bottom: 5px;
+}
